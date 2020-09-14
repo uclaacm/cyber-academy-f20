@@ -1,0 +1,11 @@
+slug = "bored-in-lecture"
+title = "Bored in Lecture"
+author = "Ellie"
+value = 50
+description = """I got bored in class and doodled something in Paint. It should still be there in memory.
+
+Hint: Google is your friend! Feel free to ask for help in #questions or DM Ellie in Discord if you're stuck on this one."""
+tags = [ "memory" ]
+files = []
+flag = "flag{jamming_yay}"
+enabled = false

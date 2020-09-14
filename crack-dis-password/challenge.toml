@@ -1,0 +1,9 @@
+slug = "crack-dis-password"
+title = "Crack Dis Password"
+author = "Ellie"
+value = 20
+description = """What's Ground Zero's password? I don't want the NTLM hash, I want the actual password. Might want to look up how to crack the hash!"""
+tags = [ "memory" ]
+files = []
+flag = "flag{rabbit}"
+enabled = false

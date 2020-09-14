@@ -1,0 +1,15 @@
+slug = "typing-is-hard"
+title = "Typing Is Hard"
+author = "Ellie"
+value = 8
+description = """Here's some challenges to practice doing some memory forensics! All the challenges use the same [RAM dump](https://www.dropbox.com/s/8kt02hwzlxf6g5i/workshop.zip?dl=0). Download it and get started! 
+
+Hint: some of the questions might be related ;)
+
+Here's a warm-up question: Typing is a lot of work. I like to just copy and paste sometimes. What's in my clipboard?
+
+Submit the flags in this format: *flag{answer_goes_here}*"""
+tags = [ "memory" ]
+files = []
+flag = "flag{icyhot}"
+enabled = false

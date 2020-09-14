@@ -1,0 +1,9 @@
+slug = "kick-apps-take-notes"
+title = "Kick Apps, Take Notes"
+author = "Ellie"
+value = 20
+description = """I left a flag in flag format in one of my files that was open in Notepad... What is it?"""
+tags = [ "memory" ]
+files = []
+flag = "flag{cold_soba_best_soba}"
+enabled = false

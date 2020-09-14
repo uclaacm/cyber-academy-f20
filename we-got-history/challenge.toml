@@ -1,0 +1,9 @@
+slug = "we-got-history"
+title = "We Got History"
+author = "Ellie"
+value = 10
+description = """I got a special note from a hero. What's the URL for my note?"""
+tags = [ "memory" ]
+files = []
+flag = "flag{https://www.dropbox.com/s/en7hmwcpzbm9isk/Kamui%20Woods.pdf}"
+enabled = false

@@ -1,0 +1,11 @@
+slug = "when-god-closes-a-door"
+title = "When God Closes a Door..."
+author = "Ellie"
+value = 20
+description = """What's the actual password of my account? 
+
+You probably won't find the answer by trying to crack the NTLM hash because I use a more complicated password than Ground Zero!"""
+tags = [ "memory" ]
+files = []
+flag = "flag{baku_baku_baaaakugo}"
+enabled = false

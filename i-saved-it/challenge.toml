@@ -1,0 +1,9 @@
+slug = "i-saved-it"
+title = "I Saved It"
+author = "Ellie"
+value = 20
+description = """I drew something in Paint (solve [Bored in Lecture](/challenges/#bored-in-lecture) if you want to know what it is). What did I save it as? Include the extension!"""
+tags = [ "memory" ]
+files = []
+flag = "flag{chargebolt.png}"
+enabled = false

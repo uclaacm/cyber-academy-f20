@@ -1,0 +1,11 @@
+slug = "oops-i-did-it-again"
+title = "Oops, I Did It Again"
+author = "Ellie"
+value = 50
+description = """I accidentally downloaded a script that's actually a keylogger! ⁀(⊙﹏☉)⁀ I happen to know that it sends its logs to the server by prefixing every key log with the string "LOGGED: ". 
+
+Find the flag in my special note from the hero."""
+tags = [ "memory" ]
+files = []
+flag = "flag{this_is_pizza_la_kamino_store}"
+enabled = false

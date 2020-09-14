@@ -1,0 +1,9 @@
+slug = "gimme-some-hash-browns"
+title = "Gimme Some Hash-browns"
+author = "Ellie"
+value = 10
+description = """I'm logged in as IEUser,. What's the NTLM hash of my password?"""
+tags = [ "memory" ]
+files = []
+flag = "flag{9233b79fe914b70d0de8928eb924b9a5}"
+enabled = false
