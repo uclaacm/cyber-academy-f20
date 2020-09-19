@@ -1,0 +1,7 @@
+id = 4
+title = "Cyber Academy: Memory Forensics"
+short = "Memory Forensics" 
+date = "Week 5 Monday 11/02 6:30-8:30PM"
+description = """What secrets can we find from your memory? No, we’re not interested in whatever you’re hiding in your brain; we’re talking about the memory on your computer! Whether it be the content of a text file, your Chrome history, or top secret password to your computer and social media accounts, if it’s been in the memory, we’ll find it! Want to know how? Attend our memory forensics workshop to learn all about analyzing RAM (Random-Access Memory) dumps and how to pick out the juicy secrets hiding in the bytes."""
+link = """"""
+slides = """"""

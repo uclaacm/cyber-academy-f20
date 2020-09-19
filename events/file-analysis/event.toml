@@ -1,0 +1,7 @@
+id = 2
+title = "Cyber Academy: File Analysis"
+short = "File Analysis" 
+date = "Week 2 Monday 10/12 6:30-8:30PM"
+description = """You use them all the time, they live on your computer, and they have names like .doc, .pdf, .jpg...believe or not, files hold a multitude of information in addition to the stuff you see when you simply click on it. Whether you think you know everything files have to offer, or you’ve never opened a file in your entire life, or you just want to check out ACM Cyber because you think we’re cool (and we are, we’re very cool), come to our first workshop of the year (!) and learn all there is to know about metadata, file carving, and all the fun little things your files might be trying to tell you."""
+link = """"""
+slides = """"""
