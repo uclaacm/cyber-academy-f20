@@ -2,6 +2,6 @@ id = 5
 title = "What Makes a Hacker?"
 short = "DEFCON Talk" 
 date = "Week 6 Monday 11/09 6:30-8:30PM"
-description = """"""
+description = """ Is cyber the right career for you? Do you want to get paid to (legally) hack stuff? Does "penetration tester" sound like a job you want? If you answered yes to any of these questions, come to a talk by Sanjana Sarda, Ex-Empress of Cyber and DEFCON 28 speaker. Sanjana will talk about cybersecurity fields and specializations - from the gritty details of cryptography algorithms, to adversarial machine learning, to hacking your neighbor's wifi to get better ping in CS:GO (please don't do that) -  as well as job opportunities within cybersecurity (a.k.a. who's gonna pay you to be a l33t h4x0r for them)."""
 link = """"""
 slides = """"""
