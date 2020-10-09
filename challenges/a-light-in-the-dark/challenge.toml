@@ -1,9 +1,9 @@
 slug = "a-light-in-the-dark"
 title = "A Light in the Dark"
 author = "Yunfan"
-value = 15
+value = 20
 description = """Help, I've lost my way! Can you figure out where I am?"""
 tags = [ "file" ]
-files = [".lighthouse.jpg"]
+files = ["lost.zip"]
 flag = "flag{p1ge0n_po1nt_light_st4tion}"
 enabled = true
