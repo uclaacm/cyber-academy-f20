@@ -1,0 +1,9 @@
+slug = "its-not-a-phase-mommy-pig"
+title = "ITS NOT A PHASE MOMMY PIG"
+author = "Aarin"
+value = 40
+description = """Peppa has been a really unruly little pig lately, but she won't tell us why! Those rebellious teenagers, you know? Can you find out what's going on with her?"""
+tags = [ "file" ]
+files = ["peppasdoublelife.doc"]
+flag = "flag{millie_b}"
+enabled = true

@@ -1,0 +1,9 @@
+slug = "this-is-fine"
+title = "This Is(n't) Fine"
+author = "Yunfan"
+value = 10
+description = """If only we could figure out what this dog is really thinking...maybe his true thoughts are somehow hidden in this image!"""
+tags = [ "file" ]
+files = ["this-is-fine.jpg"]
+flag = "flag{ev3rything_is_n0t_f1n3}"
+enabled = true

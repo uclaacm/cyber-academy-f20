@@ -1,0 +1,9 @@
+slug = "who-am-i"
+title = "Who Am I?????"
+author = "Aarin"
+value = 10
+description = """This guy doesn't know his name. Dang. Maybe if someone taught him how to read he would..."""
+tags = [ "file" ]
+files = ["whatsmyname.png"]
+flag = "flag{jared}"
+enabled = true

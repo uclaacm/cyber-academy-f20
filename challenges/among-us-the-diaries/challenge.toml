@@ -1,0 +1,9 @@
+slug = "among-us-the-diaries"
+title = "Among Us: The Diaries"
+author = "Aarin"
+value = 10
+description = """Dang, what happened here? It's like a slaughterhouse...oh, I guess some people kept journals on what happened. I wonder if we'll be able to figure out this mystery..."""
+tags = [ "file" ]
+files = ["among_us.zip"]
+flag = "flag{i_am_the_impostor}"
+enabled = true
