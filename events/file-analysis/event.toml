@@ -4,6 +4,37 @@ short = "File Analysis"
 date = "Week 2 Monday 10/12 6:30-8:30PM PDT"
 description = """You use them all the time, they live on your computer, and they have names like .doc, .pdf, .jpg...believe or not, files hold a multitude of information in addition to the stuff you see when you simply click on it. Whether you think you know everything files have to offer, or you’ve never opened a file in your entire life, or you just want to check out ACM Cyber because you think we’re cool (and we are, we’re very cool), come to our first workshop of the year (!) and learn all there is to know about metadata, file carving, and all the fun little things your files might be trying to tell you. 
 
-By the way, you should totally grab [this file](https://drive.google.com/file/d/1FJB8SXdtyZ56DeizeYAO_QLXhtN2lJBI/view?usp=sharing) before the workshop starts because we're gonna show you a cute little demo for it!"""
+# Pre-Workshop Setup
+
+## WSL (For Windows)
+For our lovely Windows people, we HIGHLY recommend you download WSL. A lot of our challenges--not just for this workshop, but for future ones as well--are meant to be done on a Unix system, so it would make y'all's lives a lot easier if you had that ready to go. 
+1. Go to Microsoft Store and search for "Ubuntu"
+2. Install Ubuntu (I think any version > 16.0 is ok, you might want to check though)
+3. If running Ubuntu gives an error message like "WSL optional component not enabled", follow [this](https://appuals.com/how-to-fix-the-wsl-optional-component-is-not-enabled-please-enable-it-and-try-again-error-on-ubuntu/)
+
+If that's not your cup of tea, you could also fire up the UCLA VPN and jump on the SEASnet server. However, you won't be able to install any new programs :(
+
+## Binwalk 
+We also reference a command line tool called binwalk which will be SUPER helpful to completing our challenges, and here's how to download it:
+
+### Windows (on WSL):
+Follow [these instructions](https://github.com/ReFirmLabs/binwalk/wiki/Quick-Start-Guide)
+
+### Mac
+1. If you don't have Homebrew installed, run this command on your terminal:
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
+
+2. Once you have Homebrew installed (or you already have Homebrew) run this command:
+  brew install binwalk
+
+## Stegsolve
+This is a tool for analyzing file structure. Run [these commands](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install) in your WSL or your terminal to install. This resource is also available [online](https://stegonline.georgeom.net/upload), though it does have fewer functionalities. 
+
+## Demo Files
+Please make sure you have both of these files downloaded to follow along for our demos!
+1. [what.png](https://drive.google.com/file/d/1FJB8SXdtyZ56DeizeYAO_QLXhtN2lJBI/view?usp=sharing)
+2. [huh.png](https://drive.google.com/file/d/160gWOI0qDfrvSn1HET7_PRIi1aslscD1/view?usp=sharing)
+
+"""
 link = "https://www.facebook.com/events/1706291436194230"
 slides = ""
