@@ -1,0 +1,9 @@
+slug = "cybersecurity-dot-jpg"
+title = "Cybersecurity dot jpg"
+author = "Matthew"
+value = 20
+description = """This is the most jpg-y [jpg](Cybersecurity_dot_jpg.jpg) that's ever been jpg-ed"""
+tags = [ "file" ]
+files = [ "Cybersecurity_dot_jpg.jpg" ]
+flag = "flag{jpgs_all_the_way_down}"
+enabled = true
