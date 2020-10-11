@@ -28,10 +28,7 @@ Follow [these instructions](https://github.com/ReFirmLabs/binwalk/wiki/Quick-Sta
   brew install binwalk
 
 ## Stegsolve
-This is a tool for analyzing file structure.
-Run [these commands](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install) in your WSL or your terminal to install.
-
-This resource is also available [online](https://stegonline.georgeom.net/upload), though it does have fewer functionalities. 
+This is a tool for analyzing file structure. Run [these commands](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install) in your WSL or your terminal to install. This resource is also available [online](https://stegonline.georgeom.net/upload), though it does have fewer functionalities. 
 
 ## Demo Files
 Please make sure you have both of these files downloaded to follow along for our demos!
