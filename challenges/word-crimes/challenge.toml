@@ -1,0 +1,9 @@
+slug = "word-crimes"
+title = "Word Crimes"
+author = "Matthew"
+value = 30
+description = """Uh oh, someone seems to have committed a crime in Word! And I'm not just talking about copying from Wikipedia. Here's the offending [document](wordcrimes.docx). Note: Word is not required to solve the challenge."""
+tags = [ "file" ]
+files = [ "wordcrimes.docx" ]
+flag = "flag{m4nd4t0ry_fuN}"
+enabled = true

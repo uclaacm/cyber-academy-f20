@@ -1,0 +1,9 @@
+slug = "chunky-monkey"
+title = "Chunky Monkey"
+author = "Matthew"
+value = 10
+description = """Oh boy, my favorite flavor of [ice cream](chunky-monkey.png). I hear Ben & Jerry's is now including extra fudge, walnuts, and flags in every quart"""
+tags = [ "file" ]
+files = [ "chunky-monkey.png" ]
+flag = "flag{pNgs_can_hav3_m3tadata_too!}"
+enabled = true
