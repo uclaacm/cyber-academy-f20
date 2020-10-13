@@ -4,6 +4,8 @@ short = "File Analysis"
 date = "Week 2 Monday 10/12 6:30-8:30PM PDT"
 description = """You use them all the time, they live on your computer, and they have names like .doc, .pdf, .jpg...believe or not, files hold a multitude of information in addition to the stuff you see when you simply click on it. Whether you think you know everything files have to offer, or you’ve never opened a file in your entire life, or you just want to check out ACM Cyber because you think we’re cool (and we are, we’re very cool), come to our first workshop of the year (!) and learn all there is to know about metadata, file carving, and all the fun little things your files might be trying to tell you. 
 
+If you missed it, the recording is [here](https://youtu.be/uCu-eWWl7ZQ).
+
 # Pre-Workshop Setup
 
 ## WSL (For Windows)
@@ -11,6 +13,7 @@ For our lovely Windows people, we HIGHLY recommend you download WSL. A lot of ou
 1. Go to Microsoft Store and search for "Ubuntu"
 2. Install Ubuntu (I think any version > 16.0 is ok, you might want to check though)
 3. If running Ubuntu gives an error message like "WSL optional component not enabled", follow [this](https://appuals.com/how-to-fix-the-wsl-optional-component-is-not-enabled-please-enable-it-and-try-again-error-on-ubuntu/)
+4. Install python by running: sudo apt-get install python 
 
 If that's not your cup of tea, you could also fire up the UCLA VPN and jump on the SEASnet server. However, you won't be able to install any new programs :(
 
@@ -37,4 +40,4 @@ Please make sure you have both of these files downloaded to follow along for our
 
 """
 link = "https://www.facebook.com/events/1706291436194230"
-slides = ""
+slides = "https://tinyurl.com/cyber20fileanalysis"
