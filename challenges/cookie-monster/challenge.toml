@@ -1,0 +1,10 @@
+slug = "cookie-monster"
+title = "Cookie Monster"
+author = "Henry"
+value = 10
+description = """Munch munch munch. I like cookies! GIVE ME MORE COOKIES! (Note for this challenge, the flag is not wrapped in a flag{} in 
+the document. When you find it, please wrap it in a flag{}."""
+tags = [ "packet" ]
+files = ["CookeMonster1.pcapng"]
+flag = "flag{i_am_but_a_smol_island}"
+enabled = false
