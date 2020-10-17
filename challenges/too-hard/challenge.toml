@@ -1,0 +1,10 @@
+slug = "too-hard"
+title = "TOO HARD!"
+author = "Henry"
+value = 30
+description = """YOU CRACKED HIS LAST MESSAGE! Now he is furious, angry, and embarassed! To make sure you never, ever see his messages again, he created a super hard 
+encryption method! (If you are stuck, look at the hint for too medium) [file](too_hard.pcapng)"""
+tags = [ "packet" ]
+files = ["too_hard.pcapng"]
+flag = "flag{plz_accept_m3_uwu}"
+enabled = false

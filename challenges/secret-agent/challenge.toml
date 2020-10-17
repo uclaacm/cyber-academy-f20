@@ -1,0 +1,9 @@
+slug = "secret-agent"
+title = "Secret Agent"
+author = "Henry"
+value = 10
+description = """It seems like someone has infiltrated the network. Can you find who it is? [file](secret_agent.pcapng) """
+tags = [ "packet" ]
+files = ["secret_agent.pcapng"]
+flag = "flag{1_am_h4ck3r_man}"
+enabled = false
