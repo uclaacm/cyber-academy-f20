@@ -13,21 +13,23 @@ Download [Wireshark Installer](https://www.wireshark.org/#downloada)
 
 ## Wireshark for Linux
 Run the following commands in Terminal
-sudo add-apt-repository ppa:wireshark-dev/stable
-sudo apt-get update
-sudo apt-get install wireshark
+1. sudo add-apt-repository ppa:wireshark-dev/stable
+2. sudo apt-get update
+3. sudo apt-get install wireshark
+
 To run Wireshark, type sudo wireshark
 
 ## Tshark for Linux/WSL
 Copy and paste the [commands](https://tshark.dev/setup/install/#linux-v300) under the section Linux 3.0.0 into terminal
+
 ## Scapy for Linux/WSL
 Install [Python](https://tecadmin.net/install-python-3-8-ubuntu/) if you already don’t have it 
 Run the following command in Terminal: pip install --pre scapy[basic]
 
 
 ## Demo
-### Demo 1: live packet capture of the following [site](http://testphp.vulnweb.com/index.php)
-### Demo 2: analyze [packet capture](https://drive.google.com/file/d/1QR4qHmLnljaRbnxlRBKavnJrT9x-y5gi/view?usp=sharing)
+1. live packet capture of the following [site](http://testphp.vulnweb.com/index.php)
+2. analyze [packet capture](https://drive.google.com/file/d/1QR4qHmLnljaRbnxlRBKavnJrT9x-y5gi/view?usp=sharing)
 """
 link = "https://www.facebook.com/events/668968400411879"
 slides = "https://tinyurl.com/cyber20packetcapture"
