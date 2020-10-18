@@ -6,4 +6,4 @@ description = """A stranger has connected to your wifi and is now using it to ta
 tags = [ "packet" ]
 files = ["too_easy.pcapng"]
 flag = "flag{just_4_warm_up!}"
-enabled = false
+enabled = true

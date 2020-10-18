@@ -7,4 +7,4 @@ description = """Uh oh! The stranger caught onto your eavesdropping, but he stil
 tags = [ "packet" ]
 files = ["too_medium.pcapng"]
 flag = "flag{I_<3_cake_popsss}"
-enabled = false
+enabled = true

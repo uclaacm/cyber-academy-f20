@@ -6,4 +6,4 @@ description = """GIVE ME MY COOKIES! COOKIESSSSSS! Hint: You might want to look 
 tags = [ "packet" ]
 files = ["cookie_monster.pcapng"]
 flag = "flag{i_am_but_a_smol_island}"
-enabled = false
+enabled = true

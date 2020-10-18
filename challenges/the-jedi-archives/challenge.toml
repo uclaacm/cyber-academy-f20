@@ -6,4 +6,4 @@ description = """Master Kenobi has been looking for a [file](FTP.pcapng) in the 
 tags = [ "packet" ]
 files = ["FTP.pcapng"]
 flag = "flag{kamino_is_missing}"
-enabled = false
+enabled = true

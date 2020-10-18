@@ -1,0 +1,9 @@
+slug = "bad-request"
+title = "Bad Request"
+author = "Jeffrey"
+value = 20
+description = """I've been asked to work a gig recently, but the client is giving me [weird requests](BadRequest.pcapng). Can you help me find out what they mean?"""
+tags = [ "packet" ]
+files = ["BadRequest.pcapng"]
+flag = "flag{owo_whats_th1s}"
+enabled = true
