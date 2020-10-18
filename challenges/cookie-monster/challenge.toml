@@ -7,4 +7,4 @@ However, please submit the flag in the default format: flag{flag_value}). [file]
 tags = [ "packet" ]
 files = ["cookie_monster.pcapng"]
 flag = "flag{i_am_but_a_smol_island}"
-enabled = false
+enabled = true

@@ -6,4 +6,4 @@ description = """It seems like someone has infiltrated the network. Can you find
 tags = [ "packet" ]
 files = ["secret_agent.pcapng"]
 flag = "flag{1_am_h4ck3r_man}"
-enabled = false
+enabled = true

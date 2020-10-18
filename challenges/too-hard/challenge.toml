@@ -7,4 +7,4 @@ encryption method! (If you are stuck, look at the hint for too medium) [file](to
 tags = [ "packet" ]
 files = ["too_hard.pcapng"]
 flag = "flag{plz_accept_m3_uwu}"
-enabled = false
+enabled = true
