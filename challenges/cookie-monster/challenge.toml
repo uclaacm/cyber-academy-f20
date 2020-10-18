@@ -2,8 +2,7 @@ slug = "cookie-monster"
 title = "COOKIE MONSTER!"
 author = "Henry"
 value = 10
-description = """GIVE ME MY COOKIES! COOKIESSSSSS! (Note for this challenge, the flag is not in the default flag{} format. The format for this challenge is flag=flag_value. 
-However, please submit the flag in the default format: flag{flag_value}). [file](cookie_monster.pcapng)"""
+description = """GIVE ME MY COOKIES! COOKIESSSSSS! Hint: You might want to look into base-64 encoding. [file](cookie_monster.pcapng)"""
 tags = [ "packet" ]
 files = ["cookie_monster.pcapng"]
 flag = "flag{i_am_but_a_smol_island}"

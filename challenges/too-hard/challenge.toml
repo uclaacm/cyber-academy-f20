@@ -3,8 +3,9 @@ title = "TOO HARD!"
 author = "Henry"
 value = 30
 description = """YOU CRACKED HIS LAST MESSAGE! Now he is furious, angry, and embarassed! To make sure you never, ever see his messages again, he created a super hard 
-encryption method! (If you are stuck, look at the hint for too medium) [file](too_hard.pcapng)"""
+encryption method! Note: The flag format for this challenge has been changed to FLAG[]. Hint 0: use scapy to analyze the load Hint 1: Looks like there are some repeating 
+characters between the bytes? [file](too_hard.pcapng)"""
 tags = [ "packet" ]
 files = ["too_hard.pcapng"]
-flag = "flag{plz_accept_m3_uwu}"
+flag = "FLAG[PLZa_ACCEPTa_M3a_UWU]"
 enabled = false
