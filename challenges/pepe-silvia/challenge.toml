@@ -1,0 +1,9 @@
+slug = "pepe-silvia"
+title = "Pepe Silvia"
+author = "Jeffrey"
+value = 10
+description = """Let's talk about the mail, okay? [Pepe Silvia](PepeSilvia.pcapng), this name keeps comin' up in our electronic mail transmission system. You gotta help me dig a little deeper."""
+tags = [ "packet" ]
+files = ["PepeSilvia.pcapng"]
+flag = "flag{pepe_silvia_th1s_man__d0esnT_3xist}"
+enabled = true

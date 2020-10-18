@@ -1,0 +1,9 @@
+slug = "just-dns"
+title = "Just DNS"
+author = "Jeffrey"
+value = 40
+description = """Other protocols are too messed up for someone as wonderful as you. Just use DNS from now on. Just DNS. Just DNS. [Just DNS.](JustDNS.pcapng)"""
+tags = [ "packet" ]
+files = ["JustDNS.pcapng"]
+flag = "flag{th1s_w@s_a_tr1umph}"
+enabled = true
