@@ -1,0 +1,9 @@
+slug = "too-easy"
+title = "TOO EASY!"
+author = "Henry"
+value = 10
+description = """A stranger has connected to your wifi and is now using it to talk to his friend! Maybe you can figure out their message? [file](too_easy.pcapng)"""
+tags = [ "packet" ]
+files = ["too_easy.pcapng"]
+flag = "flag{just_4_warm_up!}"
+enabled = true

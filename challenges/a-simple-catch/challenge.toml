@@ -6,4 +6,4 @@ description = """[This](warmup.pcapng) is a warmup problem for you to get famili
 tags = [ "packet" ]
 files = ["warmup.pcapng"]
 flag = "flag{always_trust_the_lock}"
-enabled = false
+enabled = true

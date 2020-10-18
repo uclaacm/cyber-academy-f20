@@ -1,0 +1,10 @@
+slug = "too-medium"
+title = "TOO MEDIUM!"
+author = "Henry"
+value = 20
+description = """Uh oh! The stranger caught onto your eavesdropping, but he still refuses to get off the network! Maybe his friend can give you a hint?
+(For this challenge, tools like Scapy is super duper helpful!) [file](too_medium.pcapng)"""
+tags = [ "packet" ]
+files = ["too_medium.pcapng"]
+flag = "flag{I_<3_cake_popsss}"
+enabled = true
