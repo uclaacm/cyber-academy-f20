@@ -4,6 +4,30 @@ short = "Packet Capture"
 date = "Week 3 Monday 10/19 6:30-8:30PM PDT"
 description = """What makes a Wi-Fi network unsecure? How can hackers steal your data traversing a network? Learn how a simple Google search propagates through the Internet, and what tools anyone can use to analyze network traffic. Join us for a live demonstration as we use Wireshark to capture login information sent over HTTP (Hypertext Transfer Protocol)!
 
-***Important***: Download wireshark before our meeting."""
-link = ""
-slides = ""
+# Pre-Workshop Setup
+
+## Wireshark for Windows
+
+Wireshark is a network protocol analyzer that allows you to inspect .pcap files
+Download [Wireshark Installer](https://www.wireshark.org/#downloada)
+
+## Wireshark for Linux
+Run the following commands in Terminal
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+To run Wireshark, type sudo wireshark
+
+## Tshark for Linux/WSL
+Copy and paste the [commands](https://tshark.dev/setup/install/#linux-v300) under the section Linux 3.0.0 into terminal
+## Scapy for Linux/WSL
+Install [Python](https://tecadmin.net/install-python-3-8-ubuntu/) if you already don’t have it 
+Run the following command in Terminal: pip install --pre scapy[basic]
+
+
+## Demo
+### Demo 1: live packet capture of the following [site](http://testphp.vulnweb.com/index.php)
+### Demo 2: analyze [packet capture](https://drive.google.com/file/d/1QR4qHmLnljaRbnxlRBKavnJrT9x-y5gi/view?usp=sharing)
+"""
+link = "https://www.facebook.com/events/668968400411879"
+slides = "https://tinyurl.com/cyber20packetcapture"
