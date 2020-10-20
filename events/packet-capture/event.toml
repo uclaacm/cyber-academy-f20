@@ -4,6 +4,8 @@ short = "Packet Capture"
 date = "Week 3 Monday 10/19 6:30-8:30PM PDT"
 description = """What makes a Wi-Fi network unsecure? How can hackers steal your data traversing a network? Learn how a simple Google search propagates through the Internet, and what tools anyone can use to analyze network traffic. Join us for a live demonstration as we use Wireshark to capture login information sent over HTTP (Hypertext Transfer Protocol)!
 
+If you missed it, the recording can be found [here](https://youtu.be/xNxq9cFvCCE).
+
 # Pre-Workshop Setup
 
 ## Wireshark for Windows
