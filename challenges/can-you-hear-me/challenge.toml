@@ -1,7 +1,7 @@
 slug = "can-you-hear-me"
 title = "Can You Hear Me?"
 author = "Peter"
-value = 40
+value = 50
 description = """We've intercepted an [audio](RTP.pcapng) from a conversation between Henry and Peter by listening to the multicast address on their network. Can you find the secret code (all caps)?"""
 tags = [ "packet" ]
 files = ["RTP.pcapng"]

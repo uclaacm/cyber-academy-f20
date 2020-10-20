@@ -1,7 +1,7 @@
 slug = "bad-request"
 title = "Bad Request"
 author = "Jeffrey"
-value = 20
+value = 30
 description = """I've been asked to work a gig recently, but the client is giving me [weird requests](BadRequest.pcapng). Can you help me find out what they mean?"""
 tags = [ "packet" ]
 files = ["BadRequest.pcapng"]

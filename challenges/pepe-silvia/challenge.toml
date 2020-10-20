@@ -1,7 +1,7 @@
 slug = "pepe-silvia"
 title = "Pepe Silvia"
 author = "Jeffrey"
-value = 10
+value = 20
 description = """Let's talk about the mail, okay? [Pepe Silvia](PepeSilvia.pcapng), this name keeps comin' up in our electronic mail transmission system. You gotta help me dig a little deeper."""
 tags = [ "packet" ]
 files = ["PepeSilvia.pcapng"]

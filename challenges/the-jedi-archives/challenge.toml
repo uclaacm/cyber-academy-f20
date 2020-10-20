@@ -1,7 +1,7 @@
 slug = "the-jedi-archives"
 title = "The Jedi Archives"
 author = "Peter"
-value = 20
+value = 30
 description = """Master Kenobi has been looking for a [file](FTP.pcapng) in the archives, but he can't seem to find it. Can you help him?"""
 tags = [ "packet" ]
 files = ["FTP.pcapng"]
