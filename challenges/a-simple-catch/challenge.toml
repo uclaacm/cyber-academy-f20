@@ -1,7 +1,7 @@
 slug = "a-simple-catch"
 title = "A Simple Catch"
 author = "Peter"
-value = 5
+value = 10
 description = """[This](warmup.pcapng) is a warmup problem for you to get familiar with Wireshark!"""
 tags = [ "packet" ]
 files = ["warmup.pcapng"]
