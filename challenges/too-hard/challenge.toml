@@ -11,5 +11,4 @@ Hint 1: Looks like there are some repeating characters between the bytes?"""
 tags = [ "packet" ]
 files = ["too_hard.pcapng"]
 flag = "FLAG[PLZa_ACCEPTa_M3a_UWU]"
-enabled = true
-
+enabled = false

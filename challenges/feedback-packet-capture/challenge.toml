@@ -1,0 +1,9 @@
+slug = "feedback-packet-capture"
+title = "Packet Capture Workshop Feedback"
+author = "defund"
+value = 5
+description = "You know the [drill](https://forms.gle/CMeKL74yT8QQTkAE6)."
+tags = [ "feedback" ]
+files = []
+flag = "flag{capture_the_packet}"
+enabled = true
