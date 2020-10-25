@@ -2,6 +2,63 @@ id = 4
 title = "Cyber Academy: Memory Forensics"
 short = "Memory Forensics" 
 date = "Week 5 Monday 11/02 6:30-8:30PM PDT"
-description = """What secrets can we find from your memory? No, we’re not interested in whatever you’re hiding in your brain; we’re talking about the memory on your computer! Whether it be the content of a text file, your Chrome history, or top secret password to your computer and social media accounts, if it’s been in the memory, we’ll find it! Want to know how? Attend our memory forensics workshop to learn all about analyzing RAM (Random-Access Memory) dumps and how to pick out the juicy secrets hiding in the bytes."""
-link = ""
+description = """What secrets can we find from your memory? No, we’re not interested in whatever you’re hiding in your brain; we’re talking about the memory on your computer! Whether it be the content of a text file, your Chrome history, or top secret password to your computer and social media accounts, if it’s been in the memory, we’ll find it! Want to know how? Attend our memory forensics workshop to learn all about analyzing RAM (Random-Access Memory) dumps and how to pick out the juicy secrets hiding in the bytes.
+
+## Pre-Workshop Set Up
+To make things go smoothly and efficiently, we ask that you do some pre-workshop set up to get all the necessary software and tools. If you come across any problems, feel free to message the officers in the ACM Cyber Discord server.
+
+### Memory Dump
+If you would like to follow along for the demo, you can download the memory dump we have prepared [here](https://www.dropbox.com/s/6grnhooqd0cl0ib/demo_dump.zip?dl=0) and unzip it.
+
+### Python
+First off, you’ll need to have [*Python 2.7*](https://www.python.org/downloads/release/python-270/) downloaded on your machine. To verify your current version, run the IDLE interpreter. You should see something like:
+```sh
+$ ~ python
+Python 2.7.16 (default, Jun  5 2020, 22:59:21)
+>>> 
+```
+
+You’re also going to need to download a few modules using Python’s package manager, [pip](https://pip.pypa.io/en/stable/installing/). Specifically, run this command:
+```sh
+pip install distorm3==3.4.4 pycrypto Pillow openpyxl ujson dpapick
+```
+
+### Volatility
+The tool we’re using is Volatility, an open source memory analysis tool. The version we want is ver 2.6, the Source Code version. You can download it [*here*](http://downloads.volatilityfoundation.org/releases/2.6/volatility-2.6.zip). 
+
+There are other versions and standalone executables, but since we will be using additional plugins, we need the source code. 
+
+#### Plugins
+Volatility comes with its own set of plugins, but is also compatible with community-built plugins as well. While there are many out there, [here is a set](https://github.com/superponible/volatility-plugins) that will be particularly useful for our purposes. 
+
+To use external plugins with Volatility, simply extract them to a directory of your choice and point to that directory upon execution. 
+```sh
+./vol.py --plugins=path/to/folder -f ~/dump.elf ...
+```
+
+### Hex Editor
+Since we’ll be investigating the memory, having a hex editor to display the data would be very useful. You can install native softwares, or use online versions. Here are some links to the officers’ personal favorites, but feel free to use others.
+* Mac: https://ridiculousfish.com/hexfiend/
+* Windows: https://mh-nexus.de/en/hxd/
+* Online: https://hexed.it/ 
+
+### Other Tools
+For certain challenges, having additional tools may be useful. Most things you can just Google and find online versions. We’ve linked some that you might need during this workshop.
+* NTLM cracker: https://hashes.com/en/decrypt/hash
+
+## Tips and Tricks
+No one’s going to expect you to memorize every single Volatility command. Use these cheat sheets instead!
+[Volatility Foundation](https://downloads.volatilityfoundation.org/releases/2.4/CheatSheet_v2.4.pdf)
+[Sans Institute](https://digital-forensics.sans.org/media/volatility-memory-forensics-cheat-sheet.pdf)
+
+Most of the time, your commands will start off with the following flags:
+```sh
+./volatility_executable -f ~/path/to/dump.vmem --profile=Win7SP0x86 <command_here>
+```
+
+Google is your friend! You can Google whatever you want to do with Volatility and more often than not you’ll find a write up to help you. Check out other CTF’s write ups for ideas as well!
+
+Don’t feel shy to ask other people for help/hints! You can ask in the #questions channel in the Discord server or DM the officers.
+"""
+link = "https://www.facebook.com/events/381800632869658"
 slides = ""
